@@ -2,7 +2,7 @@
 long startmillis;
 bool killWhite = false;
 int previousWhite;
-int killTime = 10000; //ten second limit to white in off mode
+int killTime = 10000; //ten second limit to white in off mode. If door is left open for longer than 10sec, lights shut off
 
 //OUTPUTS
 int ledRed = 3;
